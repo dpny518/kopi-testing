@@ -333,7 +333,10 @@ Then open a Pull Request.
 - Website: https://kopi.money  
 - Docs: https://docs.kopi.money  
 - Explorer: https://explorer.kopi.money  
-- Telegram: https://t.me/kopimoney  
+- Telegram: https://t.me/+_hk--L9mKKc4MThk
+- Discord: https://discord.gg/GvnwSwsCcs
+- Twitter: https://twitter.com/kopi_money
 - GitHub: https://github.com/kopi-money/kopi
+
 
 
