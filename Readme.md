@@ -96,10 +96,11 @@ cosmovisor version
 
 ## Quick Setup
 
-Run the official installation script for a fast setup:
+Run the official installation script for a fast setup under root:
 
 ```bash
-curl -s https://data.kopi.money/install.sh | sudo sh
+sudo -i
+curl -s https://data.kopi.money/install.sh | sh
 ```
 
 ### ⚙️ What the Script Does
