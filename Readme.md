@@ -144,6 +144,23 @@ curl -L https://kopi-services.luckystar.asia/kopi/luwak-1_latest.tar.gz | tar -x
 curl -L https://kopi-services.luckystar.asia/kopi/wasm_luwak-1_latest.tar.gz | tar -xzf - -C ~/.kopid/wasm
 ```
 
+#### 📦 Check Snapshot Sizes
+
+Before downloading, you can check the current sizes of the available snapshots using the script below:
+```bash
+chmod +x check_snapshot_size.sh
+./check_snapshot_size.sh
+```
+Example output
+```
+Checking snapshot file sizes...
+
+File                                          | Size      
+-----------------------------------------------|-----------
+luwak-1_latest.tar.gz                         | 40.37 GB  
+wasm_luwak-1_latest.tar.gz                    | 0.00 GB  
+```
+
 ### 4. Configure Cosmovisor
 
 ```bash
