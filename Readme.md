@@ -260,6 +260,20 @@ kopid keys list
 ```bash
 kopid query bank balances <wallet_address>
 ```
+### RPC Queries
+Use these commands to directly query your node via the RPC port (26657):
+#### Get block info at a specific height
+```bash
+curl http://<your-ip>:26657/block?height=100
+```
+#### Check node status
+```bash
+curl http://<your-ip>:26657/status
+```
+####View network peers and info
+```bash
+curl http://<your-ip>:26657/net_info
+```
 
 ## Transactions
 
