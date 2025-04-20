@@ -102,7 +102,9 @@ Run the official installation script for a fast setup:
 curl -s https://data.kopi.money/install.sh | sudo sh
 ```
 
-### What the Script Does
+### ⚙️ What the Script Does
+
+- **Run from Home Directory**: Avoid `sh: 0: getcwd() failed` errors by running the script from `~/`
 
 - Installs Go 1.23.7 and required dependencies  
 - Clones the Kopi repository (v19 branch) and builds kopid  
