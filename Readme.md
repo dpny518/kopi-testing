@@ -270,7 +270,7 @@ curl http://<your-ip>:26657/block?height=100
 ```bash
 curl http://<your-ip>:26657/status
 ```
-####View network peers and info
+#### View network peers and info
 ```bash
 curl http://<your-ip>:26657/net_info
 ```
